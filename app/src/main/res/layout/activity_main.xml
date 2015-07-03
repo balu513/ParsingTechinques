@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON PARSING" />
+
+    <Button
+        android:id="@+id/btn_gsonparsing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GSON PARSING" />
+
+    <Button
+        android:id="@+id/btn_jackson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JACKSON" />
+
+
+    <Button
+        android:id="@+id/btn_xmlpullparser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XML PULL PARSING" />
+
+    <Button
+        android:id="@+id/btn_saxparser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAX PARSING" />
+
+    <Button
+        android:id="@+id/btn_domparser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOM PARSING" />
+
+
+</LinearLayout>
